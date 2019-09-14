@@ -1,11 +1,13 @@
 [![Build Status](https://travis-ci.com/sebi2k1/node-can.svg?branch=master)](https://travis-ci.com/sebi2k1/node-can)
 
-node-can
+kiwi-socketcan
 ========
 
 This is a NodeJS SocketCAN extension. SocketCAN is a socket-based implementation of the CANbus protocol for Linux system.
 
 This extensions makes it possible to send and receive CAN messages (extended, remote transission) using simple Javascript functions.
+
+This software was modified for the Kiwi-Bus
 
 Usage
 -----
@@ -74,5 +76,5 @@ There are two options for installing node-can:
 2. Install via npm:
 
 ```shell
-    $ npm install socketcan
+    $ npm install kiwi-socketcan
 ```
