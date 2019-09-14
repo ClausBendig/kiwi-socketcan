@@ -1,0 +1,29 @@
+{
+  "name": "kiwi-socketcan",
+  "author": {
+    "name": "Claus Bendig",
+    "email": "clausbendig@outlook.de"
+  },
+  "description": "A SocketCAN abstraction layer for NodeJS.",
+  "version": "2.4.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ClausBendig/kiwi-socketcan.git"
+  },
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "devDependencies": {
+    "node-gyp": ">=1.0.0"
+  },
+  "dependencies": {
+    "nan": "*",
+    "xml2js": ">=0.2.0"
+  },
+  "main": "socketcan.js",
+  "os": [
+    "linux"
+  ]
+}

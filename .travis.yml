@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '8'
+dist: xenial
+install:
+  - sudo apt-get install -y can-utils
+  - sudo apt-get install -y nodejs-dev
+before_script:
+  - npm install -g nodeunit
+  - npm install
+script:
+  - NODE_PATH=. nodeunit tests/test-parsing.js tests/test-signal_conversion.js
